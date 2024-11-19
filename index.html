@@ -1,1 +1,118 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home page of GoGreen Supplies, an eco-friendly office supply company.">
+    <meta name="keywords" content="Eco-friendly, office supplies, green business">
+    <meta name="author" content="GoGreen Supplies, Tyler Rugg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGreen Supplies | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="GoGreen Supplies Logo" width="100">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome to GoGreen Supplies!</h1>
+            <div class="image-container">
+                <img class="plants" src="images/plants.jpg" alt="Eco-friendly Office">
+            </div>
+        </section>
+
+        <section class="grid">
+            <div class="mission">
+                <h2 id="our-mission">Our Mission</h2>
+                <p>At GoGreen Supplies, we aim to provide sustainable and environmentally friendly office products to promote greener workplaces. Our goal is to reduce the environmental impact of everyday office supplies by offering eco-friendly alternatives that are both effective and affordable. We believe that businesses of all sizes can contribute to a healthier planet by making mindful choices in the products they use. Whether it's recyclable paper, energy-efficient devices, or reusable office supplies, GoGreen Supplies is dedicated to helping companies transition to more sustainable practices.</p>
+            </div>
+
+            <div class="team">
+                <h2>Meet our Team</h2>
+                <p>At the heart of our company is a diverse and talented team of individuals dedicated to delivering exceptional results. Each member brings their own unique skills, experiences, and perspectives, fostering a collaborative environment where innovation thrives. From our creative designers to our strategic thinkers, every person plays a key role in driving our mission forward. Together, we work as one unified team, committed to excellence, integrity, and the pursuit of success.</p>
+            </div>
+
+            <div class="testimonials">
+                <h2>What Our Team Says</h2>
+                <blockquote>
+                    <p>"Working at GoGreen Supplies has been a rewarding experience. I love contributing to a greener future!"</p>
+                    <cite>- Sarah, Marketing Team</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"Our products make a real impact, and I’m proud to be part of a company that values sustainability."</p>
+                    <cite>- James, Sales Team</cite>
+                </blockquote>
+            </div>
+
+            <div class="impact">
+                <h2>Our Impact</h2>
+                <p>At GoGreen Supplies, we are committed to making a tangible difference in the world. From reducing waste through eco-friendly products to supporting local communities with sustainable practices, our impact is growing every day. Through partnerships, innovative solutions, and grassroots efforts, we’re helping businesses and individuals make environmentally conscious choices.</p>
+            </div>
+        </section>
+    </main>
+
+    
+    <article>
+        <h2>Reach Out for Any Inquiries</h2>
+        <form action="mailto:trugg491@mtroyal.ca" method="POST" enctype="text/plain">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required autofocus><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" required><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+
+            <label for="body">Message:</label>
+            <textarea id="body" name="body" rows="5" required></textarea><br>
+
+            <div class="radio-group">
+            <label>Preferred Method of Contact:</label>
+            <input type="radio" id="emailcontact" name="contactmethod" value="emailcontact" required>
+            <label for="emailcontact">Email</label>
+            
+            <input type="radio" id="phonecontact" name="contactmethod" value="phonecontact">
+            <label for="phonecontact">Phone</label>
+            </div>
+
+            <p>Interested in:</p>
+            <div class="checkbox-group">
+                <div>
+                    <input type="checkbox" id="officeSupplies" name="interests" value="officeSupplies">
+                    <label for="officeSupplies">Eco-Friendly Office Supplies</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="packaging" name="interests" value="packaging">
+                    <label for="packaging">Sustainable Packaging Solutions</label>
+                </div>
+            </div>
+
+            <input type="reset" value="Clear Form">
+            <input type="submit" value="Send Message">
+        </form>
+        <br>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 GoGreen Supplies</p>
+    </footer>
+</body>
+</html>
