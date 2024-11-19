@@ -7,10 +7,6 @@ body {
     color: #333;
 }
 
-h2, p {
-    text-align: left;
-}
-
 .welcome {
     justify-items: center;
     align-items: center;

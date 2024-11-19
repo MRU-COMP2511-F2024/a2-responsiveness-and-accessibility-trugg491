@@ -6,3 +6,4 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 # Web Accessibility
 
 ## Replace this text with your response here...
+I performed both a manual and automatic accessibility check using the checklist provided by WebAIM. The manual check didn't reveal any major issues, but the automatic site overview did provide some warnings regarding the form and highlighted a few color contrast issues, such as white text on light green. While these contrast warnings were noted, I feel the colour scheme suits my website's vibe and aesthetic (the light green on white in the "Home" in the nav)
